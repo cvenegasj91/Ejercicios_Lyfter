@@ -1,0 +1,6 @@
+print("Soy un desarrollador de sofware")
+print("Puedo crear una pagina web si me hablas de tu negocio")
+print("Estoy programando")
+print((48*150)*(25/100))
+print(50+75*2)
+print(350/25)
