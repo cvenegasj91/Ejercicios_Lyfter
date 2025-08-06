@@ -1,0 +1,113 @@
+<aside>
+💪🏽 Ejercicios
+
+Cree un pseudocódigo que le pida un `precio de producto` al usuario, calcule su descuento y muestre el precio final tomando en cuenta que:
+
+1. Si el precio es menor a 100, el descuento es del 2%.
+2. Si el precio es mayor o igual a 100, el descuento es del 10%.
+3. *Ejemplos*:
+    1. 120 → 108
+    2. 40 → 39.2
+
+Respuesta: 
+
+1.  Inicio
+
+2. Definir `precio_de_producto`
+
+3. Definir `precio_final`
+
+4. Mostrar “Ingresar el precio del producto”
+
+5. Pedir `precio_de producto`
+
+6. Si (`precio_de_producto` < 100) entonces
+
+            a.  `precio_final` =`precio_de_producto` - (( `precio_de_producto` *2)/100)
+
+7. Sino, si (`precio_de_producto` ≥100) entonces
+
+           a. `precio_final` =`precio_de_producto` - (( `precio_de_producto` *10)/100)
+
+8. FinSi
+
+9. Mostrar “Precio final”
+
+10. Mostrar `precio_final` 
+
+11. Fin
+
+1. Cree un pseudocódigo que le pida un `tiempo en segundos` al usuario y calcule si es menor o mayor a 10 minutos. Si es menor, muestre cuantos segundos faltarían para llegar a 10 minutos. Si es mayor, muestre “*Mayor*”. Si es exactamente igual, muestre “*Igual*”.
+    1. *Ejemplos*:
+        1. 1040 → Mayor
+        2. 140 → 460
+        3. 600 → Igual
+        4. 599 → 1
+
+Repuesta:
+
+1. Inicio
+
+2. Definir `tiempo_en_segundos`
+
+3. Definir `diferencia`
+
+4. Mostrar “Ingresar segundos”
+
+5. Pedir `tiempo_en_segundos`
+
+6. Si (`tiempo_en_segundos` < 600) entonces
+
+            a. `diferencia` = 600 - `tiempo_en_segundos` 
+
+            b. Mostrar `diferencia` 
+
+7. Sino, si (`tiempo_en_segundos` = 600) entonces
+
+            a. Mostrar “Igual”
+
+8. Sino, si (`tiempo_en_segundos`  > 600) entonces
+
+            a. Mostrar “Mayor”
+
+9. FinSi
+
+10. Fin
+
+Cree un algoritmo que le pida un numero al usuario, y realice una suma de cada numero del 1 hasta ese número ingresado. Luego muestre el resultado de la suma.
+
+1. 3 → 6 (1 + 2 + 3)
+2. 5 → 15 (1 + 2 + 3 + 4 + 5)
+3. 12 → 78 (1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12)
+
+Respuesta:
+
+1. Inicio
+
+2. Definir `numero_ingresado`
+
+3. Definir `contador`
+
+4. Definir `suma_total`
+
+5. Mostrar “Ingresar numero”
+
+6. Perdir `numero_ingresado` 
+
+7.  `contador` 
+
+8. Mientras (`numero_ingresado` ≠ `contador` ) hacer:
+
+            a.  `contador`  = `contador` + 1
+
+            b. `suma_total` = `suma_total`  + `contador` 
+
+9. FinMientras
+
+10. Mostrar “El resultado de la suma es:”
+
+11. Mostrar `suma_total` 
+
+12. Fin
+
+</aside>

@@ -1,0 +1,206 @@
+1. Cree un algoritmo para ver un video en Youtube. Sea lo más especifico posible.
+
+Respuesta:
+
+1. Inicio
+
+2. Encender computadora
+       a. Conectar a la electricidad
+       b. Presionar botón de encendido
+       c. Esperar que cargue pantalla de inicio
+       d. Ingresar contraseña
+             i. Llevar mouse al cuadro de la contraseña
+             ii. Hacer clic
+             iii. Digitar la contraseña
+             iv. Tocar la tecla Enter
+
+3. Abril el navegador web
+     a. Buscar navegador en escritorio o barra de herramientas
+     b. Hacer clic para ejecutarlo
+
+4. Ingresar a la página web de Youtube
+     a. Digitar la dirección web de Youtube
+     b. Tocar la tecla Enter
+
+5. Si hay un video de su interés en la página de inicio
+     a. Seleccionar y reproducir
+
+6. Sino:
+     a. Buscar video
+          i. Llevar el mouse sobre el cuadro de busqueda
+          ii. Hacer clic sobre el para seleccionar
+     b. Ingresar palabras claves
+     c. Hace clic en buscar
+          i. Llevar el mouse sobre signo de lupa
+          ii. Hacer clic sobre el
+     d. Reproducir video
+          i. Seleccionar video de interés
+          ii. Hacer clic en botón play.
+
+7. Fin.
+
+1. Cree un algoritmo que describa su rutina diaria. Use condiciones, condiciones multiples y ciclos.
+
+Respuesta:
+
+ 
+
+1. Inicio
+
+2. Despertar
+
+3. Ducharse
+
+4. Si es Domingo 
+
+     a. Dia libre
+
+     b. Si mi esposa esta libre
+
+          i. Hacer planes con ella
+
+               1. Si queremos desayunar en casa
+
+                     a. Hacer el desayuno entre los 2
+
+               2. Sino, si queremos desayunar afuera
+
+                     a. Escoger lugar para salir a desayunar
+
+               3. Ir al rio o la playa o visitar familiar
+
+               4. Si el camino es apto para carro
+
+                     a. Ir en carro
+
+               5. Sino, si el camino es solo para motocicleta
+
+                     a. Ir en motocicleta
+
+     c. Sino, si mi esposa esta trabajando
+
+           i. Si hay trabajos pendientes en la casa y es posible hacerlos
+
+                1. Terminarlos
+
+           ii. Hacer planes con amigos
+
+                1. Contar a alguno que no tenga nada que hacer.
+
+               2. Decidir si ir a la playa o andar en motocicleta.
+
+     d. Ir al paso 6
+
+5. Sino, si es cualquier otra dia de la semana y no es feriado o vacaciones
+
+     a. Alistarse para el trabajo
+
+           i. Planchar uniforme
+
+           ii. Ponerse uniforme y zapatos y perfume
+
+           iii. Desayunar
+
+     b. Ir al trabajo
+
+           i. Tomar las llaves de la moto
+
+           ii. Encender la moto
+
+           iii. Si el tanque de la moto tiene suficiente gasolina
+
+                  1. Manejar hasta el trabajo
+
+           iv. Sino, si el tanque esta en reserva
+
+                  1. Pasar por gasolinera
+
+                        a. Mientras el tanque no este full
+
+                              i. Llenar con gasolina hasta estar full.
+
+            v. Llegar al lugar de trabajo
+
+           vi. Parquear moto en parqueo de empleados
+
+          vii. Marcar entrada
+
+     c. Realizar trabajo correspondiente
+
+            i. Si hay cobros del día actual
+
+                  1. Proceder a realizarlos
+
+           ii. Si hay ingresos de reservas para el siguiente dia
+
+                  1. Asignar habitaciones y revisar servicios añadidos y revisar notas especiales
+
+           iii. Contestar WhatsApp y emails y mensajes en el CRM
+
+           iv. Tener al día WhatsApp y emails y mensajes en el CRM
+
+           v. Si es la hora de salida y quedan muchos correos pendientes
+
+                 1. Hacer horas extra hasta terminar lo mas importante
+
+6. Regresar a casa
+
+     a. Si sali en motocicleta
+
+           i. Sacar llaves de la moto y encender
+
+          ii. Manejar hasta la casa
+
+     b. Sino, si sali en carro
+
+           i. Sacar llaves del carro
+
+           ii. Manejar hasta la casa
+
+7. Si llego temprano antes de las 5:00 pm
+
+     a. Tomarse un cafe
+
+          i. Si no estoy muy cansado
+
+                1. Ir a la cafeteria de la esquina por un cafe y reposteria
+
+     b. Sino, si estoy casado para salir
+
+                1. Hacer cafe en casa y tomar con galletas
+
+8. Estudiar
+
+      a. Seguir el programa de Lyfter
+
+9. Cenar
+
+      a. Si hay comida en el refri
+
+              i. Calentar y comer
+
+      b. Sino,
+
+              i. Hacer comida
+
+10. Alimentar a los 2 perros
+
+       a. Por cada perro
+
+              i. Servir una taza de alimento
+
+11. Si es Martes
+
+        a. Sacar basura
+
+12. Si son antes de las 9:00 am
+
+       a. Ver una serie o película
+
+13. Sino
+
+       a. Ducharse
+
+14. Ir dormir
+
+15. Fin
