@@ -9,6 +9,8 @@ def show_parameters(func):
         result = func(*args, **kwargs)
 
         print(f'Retorno de la funcion {func.__name__}: {result}')
+        
+        return result
     
     return wrapper
 

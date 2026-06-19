@@ -17,7 +17,7 @@ class User:
       age = today.year - self.date_of_birth.year
 
       if (
-         (today.month, today.year)
+         (today.month, today.day)
          <
          (self.date_of_birth.month, self.date_of_birth.day)
       ):
