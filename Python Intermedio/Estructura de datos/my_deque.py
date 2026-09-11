@@ -21,11 +21,14 @@ class Deque:
 
     def push_right(self, new_node):
         current_node = self.head
+
+        if self.head:
+            while current_node.next is not None:
+                current_node = current_node.next
         
-        while current_node.next is not None:
-            current_node = current_node.next
-        
-        current_node.next = new_node
+            current_node.next = new_node
+        else:
+            self.head = new_node
 
     def pop_right(self,):
         if self.head is None:
