@@ -1,28 +1,33 @@
 def print_numbers_times_2(numbers_list): 
-	for number in numbers_list: #O(n)
-		print(number * 2) #O(1)
+	#Esta funcion es 2(n) ya que recorre number_list n cantidad de veces
+	for number in numbers_list: 
+		print(number * 2) 
 
 
 def check_if_lists_have_an_equal(list_a, list_b):
-	for element_a in list_a: #O(n)
-		for element_b in list_b: #O(n^2)
-			if element_a == element_b: #O(1)
-				return True #O(1)
+	#En el worst case si n != m la funcion es O(n.m) si n=m podemos decir que es O(n^2)
+	#Ademas si el primer elemento de ambas listas son iguales la funcion es O(1)
+	for element_a in list_a:
+		for element_b in list_b:
+			if element_a == element_b:
+				return True
 				
-	return False #O(1)
+	return False
 
 
 def print_10_or_less_elements(list_to_print):
-	list_len = len(list_to_print) #O(n)
-	for index in range(min(list_len, 10)): #O(n)
-		print(list_to_print[index]) #O(1)
+	#Aunque la lista tenga un tamaño de 10,000 iteraciones "for" solo hace 10 iteraciones como maximo por lo que el worst case de la funcion es O(1)
+	list_len = len(list_to_print)
+	for index in range(min(list_len, 10)):
+		print(list_to_print[index])
 
 
 def generate_list_trios(list_a, list_b, list_c):
-	result_list = [] #O(1)
-	for element_a in list_a: #O(n)
-		for element_b in list_b: #O(n^2)
-			for element_c in list_c: #O(n^3)
-				result_list.append(f'{element_a} {element_b} {element_c}') #O(1)
+	#Worst case: listas con diferentes tamaños la funcion seria O(n.m.p) si las 3 listas son de igual cantidad de iteraciones se puede decir que es O(n^3)
+	result_list = []
+	for element_a in list_a:
+		for element_b in list_b:
+			for element_c in list_c:
+				result_list.append(f'{element_a} {element_b} {element_c}')
 				
-	return result_list #O(n)
+	return result_list
