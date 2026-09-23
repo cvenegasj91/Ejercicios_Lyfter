@@ -1,12 +1,12 @@
 #Cree dos funciones que impriman dos cosas distintas, y haga que la primera llame la segunda.
 
-def primera_funcion():
+def first_funtion():
     print("Hola Mundo")
-    segunda_funcion()
+    second_funtion()
 
 
-def segunda_funcion():
+def second_funtion():
     print("Mi nombre es Carlos")
 
 
-primera_funcion()
+first_funtion()
