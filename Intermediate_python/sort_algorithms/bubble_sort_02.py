@@ -16,7 +16,4 @@ def bubble_sort(list_to_sort):
         if not made_changes:
             return
 
-
-testing_list = 25
-bubble_sort(testing_list)
-print(testing_list)
+    return list_to_sort

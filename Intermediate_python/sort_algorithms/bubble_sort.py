@@ -1,5 +1,8 @@
 def bubble_sort(list_to_sort):
 
+    if not isinstance(list_to_sort, list):
+        raise TypeError("Insert a list to sort")
+    
     for outer_i in range(0, len(list_to_sort)-1):
 
         made_changes = False
@@ -15,3 +18,5 @@ def bubble_sort(list_to_sort):
 
         if not made_changes:
             return
+
+    return list_to_sort

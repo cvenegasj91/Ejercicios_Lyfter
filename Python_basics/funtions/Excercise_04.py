@@ -3,9 +3,7 @@
 #     2. “Hola mundo” → “odnum aloH”
 
 def revert_list(my_string):
+    if not isinstance(my_string, str):
+        raise TypeError("Invalid input")
+    
     return my_string[:: -1]
-      
-
-invert_string = revert_list("Hola mundo")    
-
-print(invert_string)

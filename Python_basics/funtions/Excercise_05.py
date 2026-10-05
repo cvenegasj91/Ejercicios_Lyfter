@@ -6,18 +6,15 @@ def lowers_capitatls_counter(text):
     capital_cases = 0
     lower_cases = 0
 
+    if not isinstance(text, str):
+        raise TypeError("Enter a String")
+    
     for character in text:
         code = ord(character)
-        if 65 <= code <= 90:     
+
+        if (65 <= code <= 90) or code in [193, 201, 205, 211, 218, 209]:     
             capital_cases += 1
-        elif 97 <= code <= 122:  
+        elif (97 <= code <= 122) or code in [225, 233, 237, 243, 250, 241]:  
             lower_cases += 1
 
     return capital_cases, lower_cases
-
-
-sentece = "El Mundo Es Genial"
-upper, lower = lowers_capitatls_counter(sentece)
-
-print(sentece)
-print(f'Numero de mayusculas es {upper} y el numero de minusculas es {lower}')

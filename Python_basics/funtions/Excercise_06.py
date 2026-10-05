@@ -31,5 +31,5 @@ def sort_words_AZ(text):
     return result
 
 
-sentence =  "pera-manzana-mango-zanahoria-aguacate-limon-sandia-papaya"
-print(sort_words_AZ(sentence))
+# sentence =  "pera-manzana-mango-zanahoria-aguacate-limon-sandia-papaya"
+# print(sort_words_AZ(sentence))

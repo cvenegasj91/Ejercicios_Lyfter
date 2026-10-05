@@ -6,6 +6,3 @@ def sum_numbers(list_of_numb = [20, 35, 40, 25, 30, 15]):
     for numb in list_of_numb:
         sum = sum + numb
     return sum
-
-
-print(sum_numbers())
